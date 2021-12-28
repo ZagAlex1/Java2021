@@ -7,6 +7,7 @@ public class HomeWorkApp {
         checkSumSign();
         printColor();
         compareNumbers();
+        printColor1();
     }
 
     public static void printThreeWords() {
@@ -28,7 +29,7 @@ public class HomeWorkApp {
     }
 
     public static void printColor() {
-        int value = 101;
+        int value = 100;
 
         if (value <= 0) {
             System.out.println("Красный");
@@ -47,6 +48,19 @@ public class HomeWorkApp {
             System.out.println("a >= b");
         } else {
             System.out.println("a < b");
+        }
+    }
+
+    public static void printColor1() {
+        int value = (int) (Math.random() * 300) - 150;
+        System.out.println("value " + value);
+
+        if (value <= 0) {
+            System.out.println("Красный");
+        } else if (value > 0 && value <= 100) {
+            System.out.println("Желтый");
+        } else {
+            System.out.println("Зеленый");
         }
     }
 }
