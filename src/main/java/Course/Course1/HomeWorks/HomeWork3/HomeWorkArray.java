@@ -16,7 +16,7 @@ public class HomeWorkArray {
         arrayElementsLessThenSix(array2);
         System.out.println();
 
-        squareArray(5,5);
+        squareArray(5, 5);
         System.out.println();
         System.out.println();
 
