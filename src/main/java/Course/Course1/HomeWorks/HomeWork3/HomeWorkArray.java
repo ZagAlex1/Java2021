@@ -21,6 +21,14 @@ public class HomeWorkArray {
         System.out.println();
 
         int[] arr = fillArray(4, 5);
+        System.out.println();
+        System.out.println();
+
+        int[] array3 = new int[]{2, 5, 6, 3, 14, 10, 11, 1};
+        int minValue = minArrayValue(array3);
+        System.out.println();
+        int maxValue = maxArrayValue(array3);
+
 
     }
 
@@ -63,7 +71,10 @@ public class HomeWorkArray {
         int[][] array3 = new int[row][column];
         for (int i = 0; i < array3.length; i++) {
             for (int j = 0; j < array3[i].length; j++) {
-                if (array3[i] == array3[j]) {
+                if (i == j) {
+                    array3[i][j] = 1;
+                }                                // Женя это корректная запись?
+                if (i + j == array3.length - 1) {
                     array3[i][j] = 1;
                 }
             }
@@ -84,5 +95,26 @@ public class HomeWorkArray {
         return array4;
     }
 
+    public static int minArrayValue(int[] array5) {
+        int minValue = array5[0];
+        for (int i = 0; i < array5.length; i++) {
+            if (array5[i] < minValue) {
+                minValue = array5[i];
+            }
+        }
+        System.out.println(minValue);
+        return minValue;
+    }
+
+    public static int maxArrayValue(int[] array5) {
+        int maxValue = array5[0];
+        for (int i = 0; i < array5.length; i++) {
+            if (array5[i] > maxValue) {
+                maxValue = array5[i];
+            }
+        }
+        System.out.println(maxValue);
+        return maxValue;
+    }
 
 }
