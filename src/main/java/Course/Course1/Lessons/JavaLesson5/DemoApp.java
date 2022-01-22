@@ -33,6 +33,7 @@ public class DemoApp {
 
         String str = "Name"; //stringpool
         String str1 = new String("SerName"); // не stringpool
+/*
 
         Robot[] robots = new Robot[10];
         for (int i = 0; i < robots.length; i++) {
@@ -42,6 +43,7 @@ public class DemoApp {
         for (Robot robot : robots) {
             robot.info();
         }
+*/
 
     }
 }
