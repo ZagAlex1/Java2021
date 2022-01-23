@@ -2,12 +2,19 @@ package Course.Course1.HomeWorks.HomeWork6;
 
 public class Animal {
 
+    static int score = 0;
     protected String name;
     protected boolean swim;
     protected boolean run;
     protected int maxRun;
     protected int maxSwim;
 
+    public static void numberAnimals(Animal[] animals) {
+        for (int i = 0; i < animals.length; i++) {
+            score++;
+        }
+        System.out.println("Всего зверей " + score);
+    }
 
     public int getMaxRun() {
         return maxRun;
