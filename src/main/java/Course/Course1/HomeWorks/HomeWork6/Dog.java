@@ -15,7 +15,7 @@ public class Dog extends Animal {
         super(name, swim, run, 500, 10);
     }
 
-    @Override
+   /* @Override
     public void runDistance(int meters) {
         super.runDistance(meters);
     }
@@ -23,5 +23,5 @@ public class Dog extends Animal {
     @Override
     public void swimDistance(int meters) {
         super.swimDistance(meters);
-    }
+    }*/
 }

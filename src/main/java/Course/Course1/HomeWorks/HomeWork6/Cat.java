@@ -15,7 +15,7 @@ public class Cat extends Animal {
         super(name, swim, run, 200);
     }
 
-    @Override
+   /* @Override
     public void runDistance(int meters) {
         super.runDistance(meters);
     }
@@ -24,5 +24,5 @@ public class Cat extends Animal {
     public void swimDistance(int meters) {
         super.swimDistance(meters);
     }
-
+*/
 }
