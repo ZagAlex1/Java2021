@@ -16,6 +16,12 @@ public class Plate {
         this.food -= needToEat;
     }
 
+    public void addFood(int moreFood) {
+        if (this.food <= 5) {
+            this.food += moreFood;
+        }
+    }
+
     @Override
     public String toString() {
         return "Plate{" +

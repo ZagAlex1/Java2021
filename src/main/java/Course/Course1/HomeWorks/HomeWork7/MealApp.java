@@ -29,6 +29,13 @@ public class MealApp {
         for (Cat cat_ : cats) {
             cat_.catInfo();
         }
+        System.out.println();
+
+        plate.info();
+        System.out.println();
+
+        plate.addFood(40);
+        plate.info();
 
 
     }
