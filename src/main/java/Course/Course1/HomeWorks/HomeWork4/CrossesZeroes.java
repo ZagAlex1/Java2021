@@ -1,11 +1,9 @@
-package Course.Course1.Lessons.JavaLesson4;
+package Course.Course1.HomeWorks.HomeWork4;
 
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class CrossesZeroesApp {
-
+public class CrossesZeroes {
     //Поле
     public static char[][] map;
 
@@ -105,7 +103,25 @@ public class CrossesZeroesApp {
     }
 
     public static boolean checkWin(char symbol) {
-        //Строки
+        for (int i = 0; i < map.length; i++) {
+            if (map[i][0] == symbol && map[i][1] == symbol && map[i][2] == symbol) {
+                return true;
+            }
+            if (map[0][i] == symbol && map[1][i] == symbol && map[2][i] == symbol) {
+                return true;
+            }
+            if (map[0][0] == symbol && map[1][1] == symbol && map[2][2] == symbol) {     // По возможности разберем диагонали на уроке?
+                return true;                                                             // Чет я совсем затупил
+            }
+            if (map[2][0] == symbol && map[1][1] == symbol && map[0][2] == symbol) {
+                return true;
+            }
+        }
+
+        return false;
+
+    }
+       /* //Строки
         if (map[0][0] == symbol && map[0][1] == symbol && map[0][2] == symbol) {
             return true;
         }
@@ -131,9 +147,8 @@ public class CrossesZeroesApp {
         }
         if (map[0][2] == symbol && map[1][1] == symbol && map[2][0] == symbol) {
             return true;
-        }
-        return false;
-    }
+        }*/
+
 
     /**
      * Проверка на заполняемость поля
@@ -178,4 +193,5 @@ public class CrossesZeroesApp {
         }
         System.out.println("Конец игры");
     }
+
 }
