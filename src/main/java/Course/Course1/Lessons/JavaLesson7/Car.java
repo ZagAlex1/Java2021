@@ -1,4 +1,4 @@
-package Course.Course1.Lessons.Lesson7;
+package Course.Course1.Lessons.JavaLesson7;
 
 public class Car {
 
@@ -8,14 +8,17 @@ public class Car {
     private final int volume;
 
     public Car(int volume) {
+
         this.volume = volume;
     }
 
     public int getVolume() {
+
         return volume;
     }
 
     public void takeGasoline(GasStation station) {
+
         station.refill(volume);
     }
 

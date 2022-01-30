@@ -1,14 +1,16 @@
-package Course.Course1.Lessons.Lesson7;
+package Course.Course1.Lessons.JavaLesson7;
 
 public class GasStation {
 
     private int available;
 
     public GasStation(int available) {
+
         this.available = available;
     }
 
     public int getAvailable() {
+
         return available;
     }
 
@@ -18,6 +20,7 @@ public class GasStation {
      * @param amount
      */
     public void refill(int amount) {
+
         this.available -= amount;
     }
 

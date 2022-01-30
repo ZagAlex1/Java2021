@@ -27,6 +27,7 @@ public class Robot {
     }
 
     public void info(){
+
         System.out.println("Name = " + name + " age = " + age);
     }
 }
