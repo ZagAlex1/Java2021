@@ -1,7 +1,6 @@
-package Course.Course1.Lessons.Lesson7;
+package Course.Course1.Lessons.JavaLesson7;
 
 import java.util.Arrays;
-import java.util.Locale;
 
 public class StringApp {
     public static void main(String[] args) {
