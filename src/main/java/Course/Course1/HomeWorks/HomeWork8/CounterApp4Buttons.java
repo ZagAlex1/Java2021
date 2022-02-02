@@ -10,7 +10,7 @@ public class CounterApp4Buttons extends JFrame {
     private int value;
     private JLabel infoLabel;
     private int windowHeight = 200;
-    private int windowWidth = 700;
+    private int windowWidth = 500;
 
     public CounterApp4Buttons(int x, int y) {
         setBounds(x, y, windowWidth, windowHeight);
