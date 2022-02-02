@@ -32,7 +32,7 @@ public class CounterApp extends JFrame {
         add(infoLabel, BorderLayout.NORTH);
 
         /**
-         * Кнопки + и -
+         * Кнопки - и +
          */
         JButton decrementButton = new JButton("<");
         decrementButton.setFont(font);
@@ -72,6 +72,7 @@ public class CounterApp extends JFrame {
     }
 
     public static void main(String[] args) {
+
         new CounterApp(300,300);
     }
 }

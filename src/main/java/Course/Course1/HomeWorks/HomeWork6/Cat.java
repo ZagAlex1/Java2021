@@ -12,6 +12,7 @@ public class Cat extends Animal {
     }
 
     public Cat(String name, boolean swim, boolean run) {
+
         super(name, swim, run, 200);
     }
 
