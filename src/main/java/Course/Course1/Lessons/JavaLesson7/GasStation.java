@@ -18,6 +18,7 @@ public class GasStation {
      * @param amount
      */
     public void refill(int amount) {
+
         this.available -= amount;
     }
 

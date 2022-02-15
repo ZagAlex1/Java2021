@@ -17,10 +17,12 @@ public class Animal {
     }
 
     public int getMaxRun() {
+
         return maxRun;
     }
 
     public int getMaxSwim() {
+
         return maxSwim;
     }
 
