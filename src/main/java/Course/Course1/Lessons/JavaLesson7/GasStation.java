@@ -32,7 +32,8 @@ public class GasStation {
     }
 
     public void info() {
+
         System.out.println(this);
     }
-
+//
 }
