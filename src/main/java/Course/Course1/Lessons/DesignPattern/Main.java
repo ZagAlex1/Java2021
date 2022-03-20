@@ -1,6 +1,5 @@
 package Course.Course1.Lessons.DesignPattern;
 
-import Course.Course1.Lessons.DesignPattern.Interface.DefaultMovable;
 import Course.Course1.Lessons.DesignPattern.Interface.Movable;
 
 public class Main {
