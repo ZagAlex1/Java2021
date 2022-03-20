@@ -1,7 +1,5 @@
 package Course.Course1.HomeWorks.HomeWork2;
 
-import java.util.SortedMap;
-
 public class HomeWorkApp2 {
 
     public static void main(String[] args) {

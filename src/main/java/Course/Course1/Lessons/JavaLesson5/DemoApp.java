@@ -1,7 +1,5 @@
 package Course.Course1.Lessons.JavaLesson5;
 
-import java.util.Arrays;
-
 public class DemoApp {
 
     public static void main(String[] args) {

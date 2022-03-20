@@ -1,6 +1,5 @@
 package Course.Course1.Lessons.JavaLesson4;
 
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
